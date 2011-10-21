@@ -6,6 +6,18 @@ gem 'rails', '3.1.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'annotate'
+gem 'heroku'
+gem 'taps'
+gem 'will_paginate'
+gem 'faker'
+gem 'paperclip'
+gem 'aws-s3'
+gem 'acts-as-messageable'
+gem 'acts_as_list'
+gem 'geo_ip'
+#gem 'redis'
+#gem 'system_timer'
 
 group :production do
   gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
